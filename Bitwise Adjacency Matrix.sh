@@ -1,0 +1,1 @@
+java -jar Bitwise\ Adjacency\ Matrix.jar
