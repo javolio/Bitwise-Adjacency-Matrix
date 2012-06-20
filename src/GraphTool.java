@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class GraphTool {
-	public static String help="add <a> <b> - Adds a directed edge from a to b.\ncheck <a> <b> - Checks whether a directed edge from a to b exists.\nfrom <a> - Prints out all edges originating from a.\nhelp - Displays all available commands.\nprint - Prints out a raw bit matrix of all the edges.\nquit - Quits the program.\nremove <a <b> - Removes a directed edge from a to b.\nreset - Removes all edges from the graph.\nresize <n> - Creates an empty graph with n nodes, from 0 through n-1.\nto <a> - Prints out all edges directed to a.\ntoggle <a> <b> - Adds a directed edge from a to b if none exists; otherwise removes the edge.";
+	public static String help="add <a> <b> - Adds a directed edge from a to b.\ncheck <a> <b> - Checks whether a directed edge from a to b exists.\nfrom <a> - Prints out all edges originating from a.\nhelp - Displays all available commands.\nprint - Prints out a raw bit matrix of all the edges.\nquit - Quits the program.\nremove <a> <b> - Removes a directed edge from a to b.\nreset - Removes all edges from the graph.\nresize <n> - Creates an empty graph with n nodes, from 0 through n-1.\nto <a> - Prints out all edges directed to a.\ntoggle <a> <b> - Adds a directed edge from a to b if none exists; otherwise removes the edge.";
 	
 	public static void main(String[] args) {
 		NonWeightedGraph graph;
